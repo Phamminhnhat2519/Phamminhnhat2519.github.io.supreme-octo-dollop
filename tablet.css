@@ -1,0 +1,367 @@
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  body {
+    padding: 20px;
+  }
+  :root {
+    --primary-color: rgb(65, 180, 238);
+    --secondary-color: rgb(241, 237, 237);
+    --third-color: rgb(215, 208, 208);
+  }
+  /* chiều cao tấm hình banner */
+  header {
+    position: relative;
+  }
+  .header-banner {
+    width: 100%;
+    height: auto;
+  }
+  .header-name-container {
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: red;
+  }
+  /* vị trí header name */
+  .header-name-container {
+    margin: 0 auto;
+  }
+  /* navbar và  MUC TIEU NGHE NGHIEP + THONG TIN CA NHANshowing 1 cột với mobile screen*/
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-item a i {
+    color: var(--primary-color);
+  }
+  .container-job,
+  .container-text {
+    padding: 10%;
+  }
+  /* lên màu nền xám cho class container-personal-info, MUC TIEU NGHE NGHIEP + THONG TIN CA NHAN*/
+  /* .container-personal-info {
+    margin: 20px;
+  } */
+  .conBox {
+    padding: 30px;
+  }
+  .container-job {
+    background-color: var(--secondary-color);
+  }
+  .container-text {
+    background-color: var(--third-color);
+  }
+  .conContact {
+    color: var(--primary-color);
+    padding-left: 5px;
+  }
+  /* vị trí 6 containerbox của mục thông tin nghề nghiệp */
+  /* button View More */
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .container-box {
+    text-align: center;
+  }
+  .container {
+    display: inline-block;
+    border: 1px solid var(--third-color);
+    font-size: 10px;
+    width: 43%;
+    margin: 30px 15px;
+    margin-bottom: 30px;
+    vertical-align: text-top;
+  }
+
+  .container-2-columes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+  }
+
+  /* vị trí của tiêu đề và icon */
+  .box-title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 10px 0;
+    height: 130px;
+  }
+
+  .box-title i {
+    font-size: 2rem;
+    display: flex;
+  }
+
+  /* mục sở thích */
+  .liDiv {
+    display: inline-block;
+    margin-right: 15px;
+    margin: 0 auto;
+  }
+
+  .hobby-icons li {
+    display: block;
+    text-align: center;
+  }
+  .hobby-icons li i {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 3px solid var(--primary-color);
+    border-radius: 45%;
+    padding: 10px 16px;
+  }
+
+  /* Chỉnh thanh bar ngang hiển thị level */
+  .container-level {
+    margin-bottom: 20px;
+  }
+  .container-level span {
+    background: var(--primary-color);
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  /* Chứng chỉ - Giải thưởng
+ */
+  .section-certificates {
+    background-color: var(--secondary-color);
+    padding: 50px;
+  }
+  .container-certificates h2 {
+    padding: 0px 0 50px 0;
+  }
+  .container-certificates-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    width: 100%;
+  }
+  .certificates-item {
+    padding: 10px;
+  }
+  .certificates-item {
+    border: 1px solid white;
+  }
+  .certificates-item > img {
+    width: 100%;
+    height: auto;
+  }
+  .certi-info p:first-child {
+    padding: 5px 0;
+    font-weight: bold;
+  }
+
+  /*Mục dự án */
+  /* MỤC CV CÁ NHÂN */
+  .digitalCV a {
+    color: red;
+  }
+  .digitalCV a:hover {
+    color: rgb(46, 246, 59);
+    font-weight: bold;
+  }
+  .container-box-proA {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section-project {
+    padding: 50px 0;
+  }
+  .container-box-pro {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    margin: 50px 0;
+    width: 100%;
+  }
+  .container3 {
+    display: none;
+  }
+  .box-project1 {
+    margin: 0 10px;
+    padding: 0 10px;
+  }
+  .box-project1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* 3 cái div grid 3 cột (container-3columns) nằm dưới banner*/
+  .container-3columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container-3columns h5 {
+    font-size: 15px;
+  }
+  .container-3columns p {
+    font-size: 8px;
+  }
+  .conBoxSmall {
+    padding: 5px;
+  }
+  .conBoxSmall p {
+    margin: 0;
+  }
+
+  .table-detail td {
+    padding-right: 10px;
+  }
+  /* lên viền cho các div box */
+  .box-project1-container div h2,
+  .box-pro-cont1,
+  .table-detail tr {
+    border: 1px solid var(--secondary-color);
+    margin: 0;
+  }
+  .box-pro1 {
+    display: flex;
+  }
+  .box-year p {
+    margin: 15px;
+  }
+  .box-person {
+    display: flex;
+  }
+  .box-person p {
+    margin-bottom: 8px;
+  }
+  .box-developer {
+    display: flex;
+  }
+  .box-developer p {
+    margin-bottom: 8px;
+  }
+
+  /* footer dưới cùng*/
+  footer {
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    padding: 50px 0;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  footer ul li {
+    margin: 0px;
+    padding: 0 10px;
+    list-style: none;
+    text-align: center;
+  }
+  footer ul li i {
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+  footer ul li p {
+    font-size: 10px;
+    color: black;
+  }
+  footer ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .textEl p {
+    margin-bottom: 0;
+  }
+  /* Ẩn FORM  */
+  /* .hidden {
+    display: none;
+    padding: 0;
+  } */
+
+  /* DIGITAL PAGE */
+
+  .cv-header-banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .cv-header-name-container {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 35%;
+    left: 30%;
+    font-size: 10px;
+    color: greenyellow;
+  }
+
+  .bigBox {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 5px solid rgb(239, 82, 234);
+    border-bottom: 5px solid rgb(239, 82, 234);
+    border-left: 10px solid rgb(239, 82, 234);
+    border-right: 10px solid rgb(239, 82, 234);
+
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .cv-6BigBoxs {
+    display: block;
+  }
+  /* Chinh text title cho tung div */
+
+  .titleDiv {
+    border-bottom: 1px solid rgb(239, 82, 234);
+    color: rgb(239, 82, 234);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .goalOrderNumber {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  /* muc team trong CV-PAGE */
+  .iconTeam {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  /* muc Primary TRONG cv-page */
+  .primaryBox {
+    text-align: center;
+  }
+  .primaryBox i {
+    font-size: 2rem;
+  }
+  .everyBox {
+    padding-top: 10px;
+  }
+  .timeline {
+    display: block;
+    border-bottom: 1px dotted rgb(239, 82, 234);
+    margin-bottom: 10px;
+  }
+
+  .timelineOrderNumber {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(239, 82, 234);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 30px;
+  }
+}
