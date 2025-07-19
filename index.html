@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/laptop.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <style>
+      /* Ẩn FORM  */
+      .hidden {
+        display: none;
+        padding: 0;
+      }
+      .container-info {
+        background-color: rgb(239, 248, 204);
+      }
+      /* đổi màu button show more */
+      .justifyBtn {
+        background-color: #9dcff5;
+      }
+    </style>
+
+    <title>Assignment02</title>
+  </head>
+  <body>
+    <!-- Phan banner cua website -->
+    <header>
+      <img class="header-banner" src="images/banner.jpg" alt="Logo" />
+      <div class="header-name-container">
+        <h1 class="header-name">Phạm Minh Nhật</h1>
+        <p>Full Stack Developer</p>
+      </div>
+    </header>
+
+    <!-- Phan NAV cua website -->
+    <nav class="navbar justify-content-center">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#container-2-columns" class="nav-link active text-reset"
+            ><i class="icon-user"></i>Thông tin</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#section-6-box" class="nav-link active text-reset"
+            ><i class="icon-doc-text-inv"></i>Lý lịch</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#certificates" class="nav-link active text-reset"
+            ><i class="icon-mail-alt"></i>Chứng chỉ</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#project" class="nav-link active text-reset">
+            <i class="icon-star-1"></i>Dự án</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- section info - MUC TIEU NGHE NGHIEP VA THONG TIN CA NHAN -->
+    <section>
+      <div
+        id="container-2-columes"
+        class="container-2-columes container-personal-info"
+      >
+        <div class="conBox container-job">
+          <h5 class="fs-5 fw-bold">Mục tiêu nghề nghiệp</h5>
+          <p>
+            Cố gắng hoàn thành chương trình học sau 1 ngày làm việc, theo đuổi
+            lập trình Fullstack. Em mong muốn mình sẽ được làm việc với vị trí
+            của Funix. Em mong muốn mình sẽ được làm việc với vị trí Full Stack
+            Developer, có thể vận dụng những kiến thức đã được trau dồi và không
+            ngừng học hỏi để phát triển bản thân, cũng như hoàn thành tốt nhất
+            công việc được giao.
+          </p>
+        </div>
+        <div class="container-info">
+          <div class="conBox conBoxForm">
+            <form class="containerForm" action="#" method="#">
+              <div class="mb-3">
+                <label
+                  for="email"
+                  class="form-label"
+                  style="font-size: 1.4rem; font-weight: bold"
+                  >Thông tin cá nhân (Email):</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-primary btnSubmit">
+                Gửi
+              </button>
+              <br />
+            </form>
+          </div>
+          <div class="conBox container-text">
+            <h5 class="fs-5 fw-bold">Thông tin cá nhân</h5>
+            <p><strong>Giới tính: </strong>Nam</p>
+            <p><strong>Ngày sinh: </strong>02/05/1999</p>
+            <p><strong>Điện thoại: </strong>(+84)707754317</p>
+            <p><strong>Email: </strong>nhatpxfx01256@funix.edu.vn</p>
+            <p>
+              <strong>Địa chỉ: </strong>Concentrix, tân Chánh Hiệp, Quận 12,
+              TP.HCM
+            </p>
+            <p><strong>Websit: </strong>https://ramcoasean.concentrix.vn</p>
+            <div class="container-contact-icon">
+              <i class="conContact icon-facebook"></i>
+              <i class="conContact icon-twitter"></i>
+              <i class="conContact icon-gplus"></i>
+              <i class="conContact icon-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 containers box Thông tin nghề nghiệp -->
+    <section id="section-6-box" class="section-6-box">
+      <div class="container-box">
+        <!-- Kinh nghiệm 1 -->
+        <div class="container container-exprience">
+          <div class="box-title box-title1 box-experi">
+            <h2 class="fs-2 fw-bold">Kinh nghiệm</h2>
+            <i class="ic-toolbox"></i>
+            <div class="btn btnViewMore btnViewMore1">
+              <button class="btn-primary btn1">View More</button>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain1">
+            <div class="boxPoint"></div>
+            <div class="box-detail">
+              <div class="box-detail-department">
+                <h2 class="fs-6 fw-bold">Customer Service - Concentrix</h2>
+                <p class="fw-bold">10/2021 - 2/2025</p>
+              </div>
+              <div class="box-detail-content">
+                <p>Advisor Support</p>
+                <p>- Hỗ trợ khách hàng tiêu dùng sau mua</p>
+                <p>- Tìm giải pháp khắc phục sự cố khách hàng gặp phải</p>
+              </div>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain1">
+            <div class="boxPoint"></div>
+            <div class="box-detail">
+              <div class="box-detail-department">
+                <h2 class="fs-6 fw-bold">Customer Service - Concentrix</h2>
+                <p class="fw-bold">
+                  3/2025 -
+                  <span
+                    style="
+                      background-color: rgb(87, 173, 239);
+                      border-radius: 5px;
+                      color: white;
+                      padding: 2px 5px;
+                    "
+                    >Hiện tại</span
+                  >
+                </p>
+              </div>
+              <div class="box-detail-content">
+                <p>SME</p>
+                <p>
+                  - 4 năm miệt mài tích lũy kinh nghiệm, 2 lần phỏng vấn trượt
+                  cuối cùng mình cũng lên 1 vị trí mới.
+                </p>
+                <p>
+                  - Tham gia hỗ trợ, tổ chức phát triển dự án. Hi vọng mọi thứ
+                  sắp tới thật tươi đẹp :))
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Học Vấn 2 -->
+        <div class="container container-edu">
+          <div class="box-title box-title2 box-edu">
+            <h2 class="fs-2 fw-bold">Học Vấn</h2>
+            <i class="ic-toolbox"></i>
+            <div class="btn btnViewMore btnViewMore2">
+              <button class="btn-primary btn2">View More</button>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain2">
+            <div class="boxPoint"></div>
+            <div class="box-detail">
+              <div class="box-detail-department">
+                <h2 class="fs-6 fw-bold">THPT</h2>
+                <p class="fw-bold">2014 - 2017</p>
+              </div>
+              <div class="box-detail-content">
+                <p>- THPT Lý Tự Trọng</p>
+              </div>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain2">
+            <div class="boxPoint"></div>
+            <div class="box-detail">
+              <div class="box-detail-department">
+                <h2 class="fs-6 fw-bold">ĐH Quốc Tế HCM</h2>
+                <p class="fw-bold">2018 - 2022</p>
+              </div>
+              <div class="box-detail-content">
+                <p>Khoa học máy tính</p>
+                <p>
+                  - Cố gắng theo đuổi ngành học nhưng biến cố gia đình đến,
+                  không đủ điều kiện theo đuổi tiếp.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain2">
+            <div class="boxPoint"></div>
+            <div class="box-detail">
+              <div class="box-detail-department">
+                <h2 class="fs-6 fw-bold">Funix</h2>
+                <p class="fw-bold">2025</p>
+              </div>
+              <div class="box-detail-content">
+                <p>CNTT</p>
+                <p>
+                  - Năm tháng qua đi, bản thân và gia đình đã ổn, ngày làm việc
+                  giành dụm giờ mình có thể tự tin theo đuổi tiếp ngành học mình
+                  thích thời nhỏ.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hoạt động 3 -->
+        <div class="container container-activity">
+          <div class="box-title box-title3 box-activity">
+            <h2 class="fs-2 fw-bold">Hoạt Động</h2>
+            <i class="ic-toolbox"></i>
+            <div class="btn btnViewMore btnViewMore3">
+              <button class="btn-primary btn3">View More</button>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain3">
+            <div class="boxPoint"></div>
+            <div class="box-detail">
+              <div class="box-detail-department">
+                <h2 class="fs-6 fw-bold">Customer Service - Concentrix</h2>
+                <p class="fw-bold">3/2024 - 4/2024</p>
+              </div>
+              <div class="box-detail-content">
+                <p>Giải bóng đá khối VP</p>
+                <p>- Giải khuyến khích phủi 7 người</p>
+              </div>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain3">
+            <div class="boxPoint"></div>
+            <div class="box-detail">
+              <div class="box-detail-department">
+                <h2 class="fs-6 fw-bold">Concentrix</h2>
+                <p class="fw-bold">
+                  6/2025 -
+                  <span
+                    style="
+                      background-color: rgb(87, 173, 239);
+                      border-radius: 5px;
+                      color: white;
+                      padding: 2px 5px;
+                    "
+                    >Hiện tại</span
+                  >
+                </p>
+              </div>
+              <div class="box-detail-content">
+                <p>Cầu lông khối VP</p>
+                <p>- Giải 3 đánh đôi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sở Thích 4 -->
+        <div class="container container-hobby">
+          <div class="box-title box-title4 box-hobby">
+            <h2 class="fs-2 fw-bold">Sở Thích</h2>
+            <i class="ic-telescope"></i>
+            <div class="btn btnViewMore btnViewMore4">
+              <button class="btn-primary btn4">View More</button>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain4 box-detail">
+            <div class="box-detail-content">
+              <div class="hobby-icons">
+                <div class="liDiv liDiv1">
+                  <li>
+                    <i class="ic-mic"></i><br />
+                    <span>Music</span>
+                  </li>
+                </div>
+                <div class="liDiv liDiv2">
+                  <li>
+                    <i class="ic-hotairballoon"></i><br />
+                    <span>Du lịch</span>
+                  </li>
+                </div>
+                <div class="liDiv liDiv3">
+                  <li>
+                    <i class="ic-strategy"></i><br />
+                    <span>Game</span>
+                  </li>
+                </div>
+                <div class="liDiv liDiv4">
+                  <li>
+                    <i class="ic-basket"></i><br />
+                    <span>Nấu ăn</span>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Ngôn ngữ 5 -->
+        <div class="container container-language">
+          <div class="box-title box-title5 box-language">
+            <h2 class="fs-2 fw-bold">Ngôn ngữ</h2>
+            <i class="ic-pencil"></i>
+            <div class="btn btnViewMore btnViewMore5">
+              <button class="btn-primary btn5">View More</button>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain5 box-detail">
+            <div class="box-detail-department">
+              <h2 class="fs-6 fw-bold">English - IELTS 6.5</h2>
+              <div class="container-level">
+                <span class="level"></span>
+                <span class="level"></span> <span class="level"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="boxAllContain boxAllContain5 box-detail">
+            <div class="box-detail-department">
+              <h2 class="fs-6 fw-bold">Chinese - HSK</h2>
+              <div class="container-level">
+                <span class="level"></span>
+                <span class="level"></span>
+                <span class="level" style="background-color: gray"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Kỹ năng 6 -->
+        <div class="container container-skill">
+          <div class="box-title box-title6 box-skill">
+            <h2 class="fs-2 fw-bold">Kỹ năng</h2>
+            <i class="ic-tools-2"></i>
+            <div class="btn btnViewMore btnViewMore6">
+              <button class="btn-primary btn6">View More</button>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain6 box-detail">
+            <div class="box-detail-department">
+              <h6>HTML/CSS:Fundamental</h6>
+              <div class="container-level">
+                <span class="level"></span>
+                <span class="level"></span>
+                <span class="level" style="background-color: gray"></span>
+              </div>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain6 box-detail">
+            <div class="box-detail-department">
+              <h6>Javascript:Intermediate</h6>
+              <div class="container-level">
+                <span class="level"></span>
+                <span class="level"></span>
+                <span class="level" style="background-color: gray"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="boxAllContain boxAllContain6 box-detail">
+            <div class="box-detail-department">
+              <h6>NodeJS:Intermediate</h6>
+              <div class="container-level">
+                <span class="level"></span>
+                <span class="level"></span>
+                <span class="level"></span>
+              </div>
+            </div>
+          </div>
+          <div class="boxAllContain boxAllContain6 box-detail">
+            <div class="box-detail-department">
+              <h6>Bootstrap 5: Fundamental</h6>
+              <div class="container-level">
+                <span class="level"></span>
+                <span class="level" style="background-color: gray"></span>
+                <span class="level" style="background-color: gray"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Chứng chỉ - Giải thưởng
+-->
+    <section class="section-certificates" id="certificates">
+      <div class="container-certificates">
+        <h2 class="fs-2 fw-bold">Chứng chỉ - Giải thưởng</h2>
+        <div class="container-certificates-list">
+          <div class="certificates-item">
+            <img src="images/Cert_WEB.png" alt="Certificate 1" />
+            <div class="certi-info">
+              <p>CHỨNG CHỈ LẬP TRÌNH WEB</p>
+              <p>- Chứng chỉ thuộc chương trình CCND</p>
+              <p>- GPA: 8.6</p>
+            </div>
+          </div>
+          <div class="certificates-item">
+            <img src="images/Cert_PRF.png" alt="Certificate 2" />
+            <div class="certi-info">
+              <p>CHỨNG CHỈ LẬP TRÌNH TRÌNH JAVASCRIPT - FUNIX</p>
+              <p>- Chứng chỉ thuộc chương trình CCND</p>
+              <p>- GPA: 8.9</p>
+            </div>
+          </div>
+          <div class="certificates-item">
+            <img src="images/Cert_DBI.png" alt="Certificate 3" />
+            <div class="certi-info">
+              <p>CHỨNG CHỈ THIẾT KẾ DATABASE - FUNIX</p>
+              <p>- Chứng chỉ thuộc chương trình CCND</p>
+              <p>- GPA: 8.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Dự án - MỤC CUỐI  -->
+    <section class="section-project" id="project">
+      <div class="container-box-project">
+        <h2 class="fs-2 fw-bold">Dự án</h2>
+        <div class="container-box-proA">
+          <!-- CV CÁ NHÂN -->
+          <div class="container-box-pro">
+            <div class="box-project1">
+              <img src="images/banner.jpg" alt="pro1" />
+              <div class="box-project1-container">
+                <div class="container3">
+                  <div class="container-3columns container-personal-info">
+                    <div class="conBoxSmall container-job">
+                      <h5>Mục tiêu nghề nghiệp</h5>
+                      <p>
+                        Cố gắng hoàn thành chương trình học sau 1 ngày làm việc,
+                        theo đuổi lập trình Fullstack.
+                      </p>
+                    </div>
+                    <div class="container-info">
+                      <div class="conBoxSmall container-text">
+                        <h5>Thông tin cá nhân</h5>
+                        <p><strong>Giới tính: </strong>Nam</p>
+                        <p><strong>Ngày sinh: </strong>02/05/1999</p>
+                        <p><strong>Điện thoại: </strong>(+84)707754317</p>
+                        <p>
+                          <strong>Email: </strong>nhatpxfx01256@funix.edu.vn
+                        </p>
+                        <p>
+                          <strong>Địa chỉ: </strong>Concentrix, tân Chánh Hiệp,
+                          Quận 12, TP.HCM
+                        </p>
+                        <p>
+                          <strong>Websit: </strong
+                          >https://ramcoasean.concentrix.vn
+                        </p>
+                        <div class="container-contact-icon">
+                          <i class="conContact icon-facebook"></i>
+                          <i class="conContact icon-twitter"></i>
+                          <i class="conContact icon-gplus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="conBoxSmall container-job">
+                      <h5>Chuyên Môn</h5>
+                      <p>
+                        Cố gắng hoàn thành chương trình học sau 1 ngày làm việc,
+                        theo đuổi lập trình Fullstack.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="digitalCV" style="padding: 20px 0">
+                  <a
+                    href="digital-cv.html"
+                    target="_blank"
+                    class="fs-5"
+                    style="
+                      padding: 20px 0px;
+                      text-decoration: none;
+                      font-weight: bold;
+                    "
+                  >
+                    CV CÁ NHÂN</a
+                  >
+                </div>
+                <div class="box-pro-cont1">
+                  <div class="box-pro1">
+                    <div class="box-year">
+                      <p
+                        style="
+                          background-color: rgb(87, 173, 239);
+                          border-radius: 5px;
+                          color: white;
+                          padding: 2px 5px;
+                        "
+                      >
+                        2025
+                      </p>
+                    </div>
+                    <div class="box-icon">
+                      <div class="box-person">
+                        <i class="icon-user-1"> </i>
+                        <p>FUNiX</p>
+                      </div>
+                      <div class="box-developer">
+                        <i class="icon-lamp"></i>
+                        <p>Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-detail">
+                  <table>
+                    <tr>
+                      <td>Mô tả</td>
+                      <td>-Phạm Minh Nhật, Năm sinh: 1999, SV năm 1 FPT</td>
+                    </tr>
+                    <tr>
+                      <td>Nhiệm Vụ</td>
+                      <td>
+                        - Cố gắng hoàn thành chương trình học sau 1 ngày làm
+                        việc, theo đuổi lập trình Fullstack.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Công nghệ</td>
+                      <td>
+                        -HTML, CSS, Javascript, và các ngôn ngữ lập trình khác
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- TRANG WEB QUẢN LÝ THÚ CƯNG -->
+          <div class="container-box-pro">
+            <div class="box-project1">
+              <img src="images/project_2.png" alt="pro2" />
+              <div class="box-project1-container">
+                <div class="digitalCV" style="padding: 20px 0">
+                  <a
+                    href="digital-cv.html"
+                    target="_blank"
+                    class="fs-5"
+                    style="
+                      padding: 20px 0px;
+                      text-decoration: none;
+                      font-weight: bold;
+                    "
+                  >
+                    TRANG THÔNG TIN
+                  </a>
+                </div>
+                <div class="box-pro-cont1">
+                  <div class="box-pro1">
+                    <div class="box-year">
+                      <p
+                        style="
+                          background-color: rgb(87, 173, 239);
+                          border-radius: 5px;
+                          color: white;
+                          padding: 2px 5px;
+                        "
+                      >
+                        2025
+                      </p>
+                    </div>
+                    <div class="box-icon">
+                      <div class="box-person">
+                        <i class="icon-user-1"> </i>
+                        <p>FUNiX</p>
+                      </div>
+                      <div class="box-developer">
+                        <i class="icon-lamp"></i>
+                        <p>Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-detail">
+                  <table>
+                    <tr>
+                      <td>Mô tả</td>
+                      <td>
+                        Trang Web CV cá nhân online. Gồm caccs thông tin cá nhân
+                        cũng như kỹ năng nghề nghiệp
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Nhiệm Vụ</td>
+                      <td>
+                        - Phát triển code - Review code - Tối ưu code - Xử lí
+                        lỗi
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Công nghệ</td>
+                      <td>-HTML, CSS</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- TRANG WEB XEM TIN TỨC -->
+          <div class="container-box-pro">
+            <div class="box-project1">
+              <img src="images/project_3.png" alt="pro3" />
+              <div class="box-project1-container">
+                <div class="digitalCV" style="padding: 20px 0">
+                  <a
+                    href="digital-cv.html"
+                    target="_blank"
+                    class="fs-5"
+                    style="
+                      padding: 20px 0px;
+                      text-decoration: none;
+                      font-weight: bold;
+                    "
+                  >
+                    DỰ ÁN</a
+                  >
+                </div>
+                <div class="box-pro-cont1">
+                  <div class="box-pro1">
+                    <div class="box-year">
+                      <p
+                        style="
+                          background-color: rgb(87, 173, 239);
+                          border-radius: 5px;
+                          color: white;
+                          padding: 2px 5px;
+                        "
+                      >
+                        2021
+                      </p>
+                    </div>
+                    <div class="box-icon">
+                      <div class="box-person">
+                        <i class="icon-user-1"> </i>
+                        <p>FUNiX</p>
+                      </div>
+                      <div class="box-developer">
+                        <i class="icon-lamp"></i>
+                        <p>Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-detail">
+                  <table>
+                    <tr>
+                      <td>Mô tả</td>
+                      <td>
+                        Trang Web CV cá nhân online. Gồm các thông tin cá nhân
+                        cũng như kỹ năng nghề nghiệp
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Nhiệm Vụ</td>
+                      <td>
+                        - Phát triển code - Review code - Tối ưu code - Xử lí
+                        lỗi
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Công nghệ</td>
+                      <td>-HTML, CSS</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SOCIAL MEDIA CONTACT -->
+    <footer style="display: relative">
+      <ul>
+        <li>
+          <a>
+            <div class="iconEl"><i class="icon-facebook-circled"></i></div>
+            <div class="textEl"><p>Facebook</p></div></a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <div class="iconEl"><i class="icon-linkedin-circled"></i></div>
+            <div class="textEl"><p>Linkedin</p></div></a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <div class="iconEl"><i class="icon-github-circled"></i></div>
+            <div class="textEl"><p>Github</p></div></a
+          >
+        </li>
+      </ul>
+      <a href="#">
+        <i
+          href="#"
+          style="
+            color: rgb(120, 243, 20);
+            font-size: 3rem;
+            position: fixed;
+            right: 20px;
+            bottom: 0;
+          "
+          class="icon-up-1"
+          ><p style="font-size: 20px; text-align: center">Up</p></i
+        ></a
+      >
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
